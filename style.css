@@ -1,0 +1,79 @@
+.root {
+  width: 1300px;
+  margin: auto;
+}
+.back {
+  width: 1300px;
+  height: auto;
+  position: absolute;
+  opacity: 0.4;
+  left: 50%;
+  margin-left: -650px;
+  top: 0px;
+}
+.container {
+  height: 494px;
+  margin: auto;
+  border-bottom: 9px solid #a191b1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.container .container-logo {
+  height: 457px;
+  width: 457px;
+  margin-top: 5px;
+  margin-left: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-logo .container-logo-text {
+  text-transform: uppercase;
+  font-size: 93px;
+}
+.container .container-title {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-title .container-title-text {
+  text-transform: uppercase;
+  font-size: 54px;
+}
+.navigation {
+  height: 130px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  padding-right: 130px;
+}
+.navigation .navbar {
+  width: 120px;
+  height: 50px;
+  margin-left: 43px;
+  line-height: 52px;
+  position: relative;
+  font-size: 21px;
+}
+.navigation .navbar .menuicon {
+  margin-right: 6px;
+}
+.navigation .navbar-logo {
+  width: 70px;
+  height: 71px;
+  position: absolute;
+  left: 141px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navigation .navbar-logo .navbar-logo-text {
+  padding-left: 10px;
+  font-size: 39px;
+  text-transform: uppercase;
+}
