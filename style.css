@@ -79,3 +79,48 @@
   line-height: 40px;
   cursor: pointer;
 }
+.navbar .navbar-menu:hover {
+  background-color: lightgray;
+}
+.section-img {
+  width: 1300px;
+  height: 528px;
+  margin: auto;
+}
+.section-img .img-item {
+  width: 1026px;
+  height: 490px;
+  background-image: url("img\banner.png");
+  opacity: 0.4;
+  margin-left: 12px;
+}
+.section-img .img-item .navigation-item {
+  height: inherit;
+  padding: 0 15px;
+}
+.section-img .img-item .navigation-item .navigation-arrow {
+  margin-bottom: 10px;
+  width: 35px;
+  cursor: pointer;
+}
+.section-img .img-item .navigation-item .navigation-arrow:hover {
+  background-color: lightgray;
+}
+.section-img .img-item .navigation-item .title-container {
+  margin-top: -63px;
+}
+.section-img .img-item .navigation-item .title-container .navigation-title {
+  text-align: center;
+  font-size: 118px;
+  color: white;
+  text-shadow: purple -7px 6px 10px;
+}
+.section-img .img-item .navigation-item .title-container .navigation-subtitle {
+  margin-top: -55px;
+  font-size: 33px;
+  color: white;
+}
+.section-img .img-item .bigImg {
+  width: 1026px;
+  height: 489px;
+}
