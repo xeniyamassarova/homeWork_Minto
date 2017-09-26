@@ -1,5 +1,5 @@
 .root {
-  width: 1300px;
+  max-width: 1300px;
   margin: auto;
 }
 .back {
@@ -90,8 +90,7 @@
 .section-img .img-item {
   width: 1026px;
   height: 490px;
-  background-image: url("img\banner.png");
-  opacity: 0.4;
+  background-image: url("img/banner.png");
   margin-left: 12px;
 }
 .section-img .img-item .navigation-item {
@@ -123,4 +122,59 @@
 .section-img .img-item .bigImg {
   width: 1026px;
   height: 489px;
+}
+.text-block {
+  width: 1010px;
+  height: 136px;
+  border-top: 4px solid purple;
+  border-bottom: 4px solid purple;
+  margin: auto;
+}
+.text-block .description {
+  font-style: italic;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+}
+.text-block .description b {
+  color: purple;
+}
+.info-block {
+  margin: auto;
+  max-width: 1010px;
+  min-height: 390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-block .circle {
+  background-image: url("img/banner.png");
+  min-width: 270px;
+  min-height: 270px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+.info-block .info-text {
+  width: 600px;
+  margin-right: 40px;
+  margin-top: 44px;
+}
+.info-block .info-text .paragraph {
+  line-height: 194%;
+}
+.info-block .info-text .more {
+  text-align: end;
+  margin-top: 26px;
+  margin-right: -40px;
+}
+@media screen and (max-width: 600px) {
+  .info-block {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .info-block .info-text {
+    width: auto;
+    margin: auto;
+  }
 }
