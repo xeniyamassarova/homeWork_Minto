@@ -12,7 +12,8 @@
   top: 0px;
 }
 .container {
-  height: 494px;
+  min-height: 512px;
+  max-width: 1300px;
   margin: auto;
   border-bottom: 9px solid #a191b1;
   display: flex;
@@ -23,15 +24,17 @@
 .container .container-logo {
   height: 457px;
   width: 457px;
-  margin-top: 5px;
-  margin-left: 68px;
+  margin-top: 14px;
+  margin-left: 54px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid;
 }
 .container .container-logo .container-logo-text {
   text-transform: uppercase;
   font-size: 93px;
+  margin-bottom: 0;
 }
 .container .container-title {
   height: auto;
@@ -39,41 +42,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 38px;
 }
 .container .container-title .container-title-text {
   text-transform: uppercase;
   font-size: 54px;
-}
-.navigation {
-  height: 130px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: relative;
-  padding-right: 130px;
-}
-.navigation .navbar {
-  width: 120px;
-  height: 50px;
-  margin-left: 43px;
-  line-height: 52px;
-  position: relative;
-  font-size: 21px;
-}
-.navigation .navbar .menuicon {
-  margin-right: 6px;
-}
-.navigation .navbar-logo {
-  width: 70px;
-  height: 71px;
-  position: absolute;
-  left: 141px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.navigation .navbar-logo .navbar-logo-text {
-  padding-left: 10px;
-  font-size: 39px;
-  text-transform: uppercase;
+  margin-top: 38px;
 }
