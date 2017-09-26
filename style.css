@@ -49,3 +49,33 @@
   font-size: 54px;
   margin-top: 38px;
 }
+.navbar {
+  max-width: 1300px;
+  min-height: 130px;
+  padding: 0 142px;
+  position: relative;
+}
+.navbar .navbar-brand {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar .navbar-brand .textMinto {
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-size: 36px;
+  margin-top: 15px;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+.navbar .navbar-menu {
+  font-size: 20px;
+  position: relative;
+  margin-left: 47px;
+  height: 44px;
+  padding: 0px 4px;
+  line-height: 40px;
+  cursor: pointer;
+}
